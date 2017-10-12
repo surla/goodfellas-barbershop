@@ -73,7 +73,7 @@
 
 .locations > article {
   width: 400px;
-  height: 228px;
+  height: 245px;
   font-size: 150%;
   text-align: center;
   padding-top: 25px;
@@ -93,9 +93,27 @@ article:hover {
 }
 
 .phone-number {
-  margin: 10px;
+  margin: 15px;
 }
 
+.social-links {
+  margin-top: 20px;
+  letter-spacing: 10px;
+}
+
+.social-links a:hover {
+  border: none;
+}
+
+.yelp:hover {
+  border: none;
+  color: #c41200;
+}
+
+.instagram:hover {
+  border: none;
+  color: #4c68d7;
+}
 /* Social Media */
 
 .social-media {
