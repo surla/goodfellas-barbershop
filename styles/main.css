@@ -38,16 +38,16 @@ body {
 
 a {
 
-}
 
+}
 a:link, a:visited {
   text-decoration: none;
   color: #000000;
 }
 
 a:hover, a:active {
-  border-bottom: 3px solid;
-  transition: border-bottom ease 2s;
+  border-bottom: 2px solid;
+  transition: border-bottom ease .5s;
 }
 
 ol, ul {

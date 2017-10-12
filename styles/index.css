@@ -19,33 +19,39 @@
 
 /* Navbar */
 
-.nav {
+#navbar {
+  width: 100%;
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 60px;
-  line-height: 60px;
+  margin-bottom: -60px;
   position: relative;
   z-index: 3;
-
+  text-transform: uppercase;
 }
 
-nav > ul {
-  overflow: hidden;
-}
-
-.nav > li {
+#navbar a {
   margin: 10px;
+  letter-spacing: 1.5px;
+  font-size: 110%;
+  color: #e7e7e7;
 }
 
 .sticky {
+  background-color: #000000;
+  color: #ffffff;
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
+  height: 60px;
 }
 
 /* About */
+
+.about {
+  padding-top: 20px;
+}
 
 .about > p {
   font-family: 'Inconsolata', monospace;
