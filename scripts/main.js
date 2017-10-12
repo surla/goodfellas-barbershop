@@ -13,7 +13,6 @@ $(window).scroll(function() {
 });
 
 
-
 // Gallery
 
 $(function() {
