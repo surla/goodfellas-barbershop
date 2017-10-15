@@ -16,7 +16,7 @@
   height: 60px;
 }
 
-#navbar > a {
+#navbar>a {
   margin: 10px;
   letter-spacing: 1.5px;
   font-size: 110%;
@@ -25,7 +25,6 @@
 
 header {
   margin-top: 100px;
-
   text-align: center;
 }
 
@@ -37,8 +36,8 @@ h1 {
 .background_image {
   background-image: url("../img/north-park.jpg");
   background-size: 850px;
-	background-position: center center;
-	background-repeat: no-repeat;
-	text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
   height: 80vh;
 }
