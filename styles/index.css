@@ -1,10 +1,10 @@
 .background_image {
   background-image: url("../img/logo.jpg");
-  background-size: 550px;
+  background-size: 500px;
 	background-position: center center;
 	background-repeat: no-repeat;
 	text-align: center;
-  height: 100vh;
+  height: 75vh;
 }
 
 .header {
@@ -20,7 +20,7 @@
 
 #navbar {
   width: 100%;
-  height: 60px;
+  height: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,7 +30,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: -60px;
+  margin-bottom: 10px;
   position: relative;
   z-index: 2;
   text-transform: uppercase;
@@ -54,7 +54,7 @@
 /* About */
 
 .about {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 .about > p {
